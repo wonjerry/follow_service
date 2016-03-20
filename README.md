@@ -14,7 +14,7 @@ Create a new user
 
 ##### PUT /api/users
 
-Adding a 'user.id' property containing the source user id and a 'follow' property containing a target user id will update the source user database entry with the target user id placed in a 'following'  data element (which is an array). The target user database element is updated with a 'followed by' data element (which is also an id) which contains the user id of the source user. Ids are the unique identifiers of the database entries of the users.
+Including a 'user_id' property containing the source user id and a 'follow' property containing a target user id in the will update the source user database entry with the target user id placed in a 'following' data element (array type). The target user database element is updated with a 'followed_by' data element (which is also a database id) which contains the user id of the source user. Ids are always the unique identifiers of the database entries of the users.
 
 ##### GET /api/users
 
