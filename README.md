@@ -24,5 +24,5 @@ Returns database entries of all users
 
 ##### GET /api/users/{id}
 
-If endpoint contains an id, a specific user will be searched for. If no query is given, a unique user id will be expected. If the query *findBy=name* is added, a username is searched for. Returns single user database entry.
+If endpoint contains an id, a user will be searched for. If no query is given, a unique user id will be expected. If the query *findBy=name* is added, a username is searched for. Returns single user database entry.
 
