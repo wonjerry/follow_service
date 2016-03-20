@@ -1,3 +1,5 @@
+var UserRequests = require('./lib/user.requests');
+
 // user request methods
 module.exports = [{
   method: 'POST',
