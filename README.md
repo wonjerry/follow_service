@@ -6,7 +6,7 @@ Install dependancies with
 npm install --save
 ```
 
-Server and database URLs and ports: edit config.js accordingly.
+Server and database URLs and ports: edit *config.js* accordingly.
 
 ###Endpoints and their methods:
 
