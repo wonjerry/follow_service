@@ -20,7 +20,7 @@ Including a 'user_id' property containing the source user id and a 'follow' prop
 
 ##### GET /api/users
 
-Get database entry of all users
+Returns database entries of all users
 
 ##### GET /api/users/{id}
 
