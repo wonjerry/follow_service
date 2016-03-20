@@ -1,7 +1,6 @@
 var Mongoose = require('mongoose');
 var Hapi = require('hapi');
 
-// var UserRequests = require('./lib/user.requests');
 var Routes = require('./routes/routes');
 var config = require('./config');
 
