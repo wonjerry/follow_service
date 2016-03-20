@@ -16,7 +16,7 @@ Create a new user
 
 ##### PUT /api/users
 
-A payload containing a *command* property set to *follow*, a *user_id* property containing the source user id and a *slave_user_id* property containing a target user id will update the source user database entry with the target user id placed in a *following* data element (array type). The target user database element is updated with a *followed_by* data element (array type) which contains the user id of the source user. A *command* property of *unfollow* instead of *follow* removes user ids from user database *following* and *followed_by* elements. Ids are always the unique identifiers of the database entries of the users. Returns updated user database record with user id of *user_id* payload property.
+A payload containing a *command* property set to *follow*, a *user_id* property containing the source user id and a *target_user_id* property containing a target user id will update the source user database entry with the target user id placed in a *following* data element (array type). The target user database element is updated with a *followed_by* data element (array type) which contains the user id of the source user. A *command* property of *unfollow* and properties *user_id* and *target_user_id* removes user ids from user database *following* and *followed_by* elements. Ids are always the unique identifiers of the database entries of the users. Returns updated user database record with user id of *user_id* payload property.
 
 ##### GET /api/users
 
