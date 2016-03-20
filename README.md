@@ -8,7 +8,7 @@ npm install --save
 
 Server and database URLs and ports: edit *config.js* accordingly.
 
-###Endpoints and their methods:
+###Endpoints and their methods
 
 ##### POST /api/users
 
