@@ -2,7 +2,9 @@
 Simple server-side setup for allowing users to follow and unfollow each other. Requires MongoDB
 
 Install dependancies with
-##### npm install --save
+```bash
+npm install --save
+```
 
 Server and database URLs and ports: edit config.js accordingly.
 
