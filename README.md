@@ -4,6 +4,8 @@ Simple server-side setup for allowing users to follow and unfollow each other. R
 Install dependancies with
 ##### npm install --save
 
+Server and database URL: edit config.js accordingly.
+
 ###Endpoints and their methods:
 
 ##### POST /api/users
