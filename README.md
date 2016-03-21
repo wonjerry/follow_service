@@ -12,7 +12,7 @@ Server and database URLs and ports: edit *config.js* accordingly.
 
 ##### POST /api/users
 
-Create a new user
+Create a new user. Payload is expected to contain a string type 'name' property. Returns new user database entry.
 
 ##### PUT /api/users
 
